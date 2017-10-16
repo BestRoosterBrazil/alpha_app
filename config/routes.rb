@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
- root 'welcome#home'
- get 'about', to: 'welcome#about'
- get 'test', to: 'welcome#test'
+ root 'page#home'
+ get 'about', to: 'page#about'
+ get 'test', to: 'page#test'
  resources :articles
 end
