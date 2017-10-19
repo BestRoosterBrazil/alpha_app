@@ -19,10 +19,23 @@ $navbar-default-bg: #874200;
   font-weight: bold;
 }
 
-
 #logo:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.well.col-xs-8.col-xs-offset-2 {
+  background-image: asset-url("rage.jpg");
+  background-attachment: fixed;
+  background-size: 500px;
+  background-position: top;
+}
+
+.row {
+  background-image: asset-url("aaaa.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .center {
