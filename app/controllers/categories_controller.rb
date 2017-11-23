@@ -31,8 +31,6 @@ def require_admin
 if !logged_in? || (logged_in? and !current_user.admin?)
   flash[:danger] = "Only Admins can peform this action"
   redirect_to categories_path
-else
-  render 'new'
 end
 end
 
